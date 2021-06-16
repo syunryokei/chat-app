@@ -2,145 +2,147 @@
   display: flex;
 }
 
-.side_bar {
+.side-bar {
+  background-color: #253141;
   width: 300px;
   height: 100vh;
 }
 
 .side-bar-header {
-  background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  background-color: #253141;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
-.header_name a {
-  color: #fafafa;
+.header-name a{
   font-size: 16px;
+  color: #FAFAFA;
   text-decoration: none;
 }
 
-.create_room a {
-  padding: 14px;
-  border: 1px solid lightblue;
+.create-room a {
   font-size: 10px;
+  border: 1px solid lightblue;
+  padding: 14px;
   color: deepskyblue;
   text-decoration: none;
 }
 
 .rooms {
-  background-color: #2f3e51;
+  background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
   overflow: scroll;
 }
 
 .room {
-  padding: 20px 20px 40px 20px;
+  padding: 20px 0 40px;
 }
-.room_name a {
-  color: white;
+
+.room-name a {
   text-decoration: none;
+  color: white;
 }
 
 .chat {
+  background-color: #FFFFFF;
   width: calc(100vw - 300px);
 }
 
 .chat-header {
-  background-color: #ffffff;
   height: 100px;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
 }
 
-.header_title{
-  font-size: 24px;
+.header-title {
   color: #333;
+  font-size: 24px;
   margin-top: 36px;
 }
 
-.header_button {
+.header-button {
   margin-top: 40px;
 }
 
-.header_button a {
-  border: 1px solid darkred;
+.header-button a {
   text-decoration: none;
-  padding: 20px;
+  border: 1px solid darkred;
   color: darkred;
+  padding: 20px;
 }
 
 .messages {
-  background-color: #fafafa;
+  background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
   overflow: scroll;
 }
 
 .message {
-  padding: 10px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
-.upper_message {
+.upper-message{
   display: flex;
 }
 
-.message_user {
-  font-size: 16px;
+.message-user {
   color: #434a54;
+  font-size: 16px;
 }
 
-.message_date {
-  padding-left: 10px;
-  font-size: 12px;
+.message-date {
   color: #999;
+  font-size: 12px;
+  padding-left: 10px;
 }
 
-.lower_message {
+.lower-message {
   margin-top: 10px;
 }
 
-.message_content {
-  font-size: 14px;
+.message-content {
   color: #434a54;
+  font-size: 14px;
   margin-bottom: 40px;
 }
 
 .form {
+  background-color: #DDDDDD;
   height: 90px;
-  background-color: #dddddd;
   padding: 20px 40px;
   display: flex;
 }
 
-.form_input {
+.form-input {
   background-color: white;
-  width: 100%;
   display: flex;
-}
-
-.form_message {
-  padding-left: 10px;
-  height: 50px;
-  border: none;
   width: 100%;
 }
 
-.form_submit {
-  background-color: #38aef0;
+.form-message {
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
   color: white;
   font-size: 16px;
-  padding: 0 20px;
-  border: none;
-  margin-left: 15px;
   height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
 }
 
-.form_image {
+.form-image {
   font-size: 12px;
   background-color: lightblue;
   color: white;
